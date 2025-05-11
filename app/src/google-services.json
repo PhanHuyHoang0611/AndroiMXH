@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "403423792136",
+    "project_id": "phanhuyhoang0611",
+    "storage_bucket": "phanhuyhoang0611.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403423792136:android:ca9249269807df458555bd",
+        "android_client_info": {
+          "package_name": "com.example.dasboad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8UXj9Bxs5f2KzAA5HWa38jg0MRGDdznc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
