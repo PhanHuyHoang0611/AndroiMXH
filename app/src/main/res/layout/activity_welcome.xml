@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- Ảnh minh họa -->
+    <ImageView
+        android:id="@+id/illustrationImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/app_logo"/>
+    <!--    android:contentDescription="Minh họa"-->
+    <!--    android:layout_marginBottom="24dp" />-->
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng đến với FAN và bắt đầu"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Mô tả ngắn -->
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhận câu trả lời nhanh chóng và trợ giúp từ cộng đồng."
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Nút bắt đầu -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu"
+        android:backgroundTint="#295DFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Khám phá -->
+    <TextView
+        android:id="@+id/exploreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khám phá"
+        android:textSize="14sp"
+        android:textColor="#295DFF"
+        android:layout_marginBottom="24dp" />
+
+
+</LinearLayout>
