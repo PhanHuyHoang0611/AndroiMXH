@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Avatar -->
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/app_logo"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Avatar"
+            android:background="@drawable/app_logo"
+            android:scaleType="centerCrop" />
+
+        <!-- Username -->
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: johndoe@example.com"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <!-- Phone -->
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone: 0123456789"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address: 123, Main Street"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Bio -->
+        <TextView
+            android:id="@+id/tvBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bio: This is a short bio"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Role: User"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rank: 0"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/tvJoinTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joined: 01/01/2023"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+        <!-- Edit Button -->
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
+
