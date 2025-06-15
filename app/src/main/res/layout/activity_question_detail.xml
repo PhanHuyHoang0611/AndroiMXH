@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:text="Trở lại"
+        android:layout_gravity="start"
+        android:padding="4dp"
+        android:layout_marginBottom="4dp"  />
+    <!-- Thông tin bài đăng -->
+    <TextView
+        android:id="@+id/tvQuestionUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên người đăng"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#2E7D32"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/tvQuestionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiêu đề bài đăng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvQuestionContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung bài đăng"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvQuestionTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15/06/2025 12:34"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:paddingBottom="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start|center_vertical"
+        android:paddingBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/btnLikeQuestion"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_like"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Like"
+            app:tint="#F44336"/>
+
+        <TextView
+            android:id="@+id/tvLikeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" lượt thích"
+            android:textColor="#F44336"
+            android:paddingStart="4dp"
+            android:paddingEnd="16dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_comment"
+            android:layout_marginStart="8dp"
+            app:tint="#011565C0" />
+
+        <TextView
+            android:id="@+id/tvAnswerCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" trả lời"
+            android:textColor="#1565C0"
+            android:paddingStart="4dp"/>
+    </LinearLayout>
+
+    <!-- Nhập trả lời mới -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trả lời câu hỏi:"
+        android:textStyle="bold"
+        android:paddingTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/edtAnswer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nhập câu trả lời của bạn..." />
+
+        <Button
+            android:id="@+id/btnSendAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi" />
+    </LinearLayout>
+
+    <!-- Danh sách câu trả lời -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Các câu trả lời:"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAnswers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

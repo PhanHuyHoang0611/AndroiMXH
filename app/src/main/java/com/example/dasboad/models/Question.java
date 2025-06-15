@@ -9,6 +9,14 @@ public class Question {
     public String userId;
     public long timestamp;
 
+    public int likeCount;
+    public int answerCount;
+
+    public int getLikeCount() { return likeCount; }
+    public void setLikeCount(int likeCount) { this.likeCount = likeCount; }
+
+    public int getAnswerCount() { return answerCount; }
+    public void setAnswerCount(int answerCount) { this.answerCount = answerCount; }
     public Question() {}
 
     public Question(String id, String title, String content, String category,String image, String userId, long timestamp) {

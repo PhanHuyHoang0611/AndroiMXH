@@ -38,7 +38,7 @@
             android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email: johndoe@example.com"
+            android:text="Email: "
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
         <!-- Phone -->
@@ -46,7 +46,7 @@
             android:id="@+id/tvPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Phone: 0123456789"
+            android:text="Phone: "
             android:textSize="16sp"
             android:gravity="center"
             android:layout_marginBottom="8dp" />
@@ -56,7 +56,7 @@
             android:id="@+id/tvAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Address: 123, Main Street"
+            android:text="Address: "
             android:textSize="16sp"
             android:gravity="center"
             android:layout_marginBottom="8dp" />
@@ -66,7 +66,7 @@
             android:id="@+id/tvBio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bio: This is a short bio"
+            android:text="Bio: "
             android:textSize="16sp"
             android:gravity="center"
             android:layout_marginBottom="16dp" />
@@ -75,7 +75,7 @@
             android:id="@+id/tvRole"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Role: User"
+            android:text="Role: "
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
 
@@ -83,14 +83,14 @@
             android:id="@+id/tvRank"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rank: 0"
+            android:text="Rank: "
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
         <TextView
             android:id="@+id/tvJoinTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Joined: 01/01/2023"
+            android:text="Joined: "
             android:textSize="16sp"
             android:layout_marginBottom="16dp" />
         <!-- Edit Button -->

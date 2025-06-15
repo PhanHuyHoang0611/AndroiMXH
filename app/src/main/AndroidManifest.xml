@@ -23,8 +23,10 @@
         </activity>
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.RegisterActivity" />
-        <activity android:name=".activities.ProfileActivity"/>
-        <activity android:name=".activities.EditProfileActivity"/>
+        <activity android:name=".activities.FeedActivity"/>
+        <activity android:name=".activities.AddQuestionActivity"/>
+        <activity android:name=".activities.QuestionDetailActivity"/>"/>
+
 
     </application>
 
